@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>My Portfolio</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="all,follow">
+  <!-- Bootstrap CSS-->
+  <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css">
+  <!-- Font Awesome CSS-->
+  <link rel="stylesheet" href="vendor/font-awesome/css/font-awesome.min.css">
+  <!-- Google fonts - Roboto + Roboto Slab-->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,700%7CRoboto:400,700,300">
+  <!-- owl carousel-->
+  <link rel="stylesheet" href="vendor/owl.carousel/assets/owl.carousel.css">
+  <link rel="stylesheet" href="vendor/owl.carousel/assets/owl.theme.default.css">
+  <!-- animate.css-->
+  <link rel="stylesheet" href="vendor/animate.css/animate.css">
+  <!-- theme stylesheet-->
+  <link rel="stylesheet" href="css/style.red.css" id="theme-stylesheet">
+  <!-- Custom stylesheet - for your changes-->
+  <link rel="stylesheet" href="css/custom.css">
+  <!-- Leaflet CSS - For the map-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.4.0/leaflet.css">
+  <!-- Favicon-->
+  <link rel="shortcut icon" href="img/favicon.png">
+    <!-- Tweaks for older IEs--><!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
+      </head>
+      <body>
+        <!-- Reference item-->
+        <!-- navbar-->
+        <header class="header">
+          <nav class="navbar navbar-expand-lg fixed-top">
+            <div class="container"><a href="#intro" class="navbar-brand scrollTo"><img src="img/logo.png" width="200px"></a>
+              <button type="button" data-toggle="collapse" data-target="#navbarcollapse" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler navbar-toggler-right"><span class="fa fa-bars"></span></button>
+              <div id="navbarcollapse" class="collapse navbar-collapse">
+                <ul class="navbar-nav ml-auto">
+                  <li class="nav-item"><a href="#intro" class="nav-link link-scroll">Home</a></li>
+                  <li class="nav-item"><a href="#about" class="nav-link link-scroll">About</a></li>
+                  <li class="nav-item"><a href="#services" class="nav-link link-scroll">Services</a></li>
+                  <li class="nav-item"><a href="#testimonials" class="nav-link link-scroll">Education</a></li>
+                  <li class="nav-item"><a href="#references" class="nav-link link-scroll">My work</a></li>
+                  <li class="nav-item"><a href="#contact" class="nav-link link-scroll">Contact</a></li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+        </header>
+        <!-- Intro Image-->
+        <section id="intro" style="background: url(img/home.jpg) center center no-repeat; background-size: cover;" class="intro-section pb-2">
+          <div class="container text-center">
+            <div data-animate="fadeInDown" class="logo"><img src="img/logo1.png" width="300px" alt="logo" width="130"></div>
+            <h1 data-animate="fadeInDown" class="text-shadow mb-5">Hi, I'm Wid!</h1>
+            <p data-animate="slideInUp" class="h3 text-shadow text-400">Welcome To My Page, Nice To Meet You</p>
+          </div>
+        </section>
+        <!-- About-->
+        <section id="about" class="about-section">
+          <div class="container">
+            <header class="text-center">
+              <h2 data-animate="fadeInDown" class="title">About me</h2>
+            </header>
+            <div class="row">
+              <div data-animate="fadeInUp" class="col-lg-6">
+                <p>
+                  I am a student at one of the IT campuses in Bali, and I like the world of technology such as coding, especially <strong>Web Development.</strong>
+                </p>
+                <p>
+                  I was not only a student but also took a side job such as a web developer and some college assignment jockeys, indeed my knowledge is still lacking but I am the type of person who wants to <strong>find out something new and learn new things</strong>
+                </p>
+                <p>
+                  <strong>Creating a website</strong>  using the PHP, MySQL, HTML, CSS programming languages. Bootstrap and Laravel Framework. CMS Wordpress, a website that can be created by a Company Profile, Portfolio, E - Commerce, Blog and others. Some minor skills in operating and editing software such as Final cut pro, Adobe Photoshop Lightroom, Adobe Photoshop, Adobe Audition, Microsoft Office.
+                </p>
+              </div>
+              <div data-animate="fadeInUp" class="col-lg-6">
+                <div class="skill-item">
+                  <div class="progress-title">PHP</div>
+                  <div class="progress">
+                    <div role="progressbar" style="width: 40%" aria-valuenow="0" aria-valuemin="60" aria-valuemax="100" class="progress-bar progress-bar-skill1"></div>
+                  </div>
+                </div>
+                <div class="skill-item">
+                  <div class="progress-title">WordPress</div>
+                  <div class="progress">
+                    <div role="progressbar" style="width: 50%" aria-valuenow="70" aria-valuemin="60" aria-valuemax="100" class="progress-bar progress-bar-skill2"></div>
+                  </div>
+                </div>
+                <div class="skill-item">
+                  <div class="progress-title">HTML coding</div>
+                  <div class="progress">
+                    <div role="progressbar" style="width: 70%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" class="progress-bar progress-bar-skill3"></div>
+                  </div>
+                </div>
+                <div class="skill-item">
+                  <div class="progress-title">Laravel</div>
+                  <div class="progress">
+                    <div role="progressbar" style="width: 40%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" class="progress-bar progress-bar-skill4"></div>
+                  </div>
+                </div>
+                <div class="skill-item">
+                  <div class="progress-title">Bootstrap</div>
+                  <div class="progress">
+                    <div role="progressbar" style="width: 50%" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" class="progress-bar progress-bar-skill5"></div>
+                  </div>
+                </div>
+              </div>
+              <div align="center" data-animate="fadeInUp" class="col-sm-6 mx-auto mt-5"><img src="img/p1.jpeg" width="350px" alt="This is me - IT worker" class="image rounded-circle img-fluid"></div>
+            </div>
+          </div>
+        </section>
+        <!-- Service-->
+        <section id="services" class="bg-gradient services-section">
+          <div class="container">
+            <header class="text-center">
+              <h2 data-animate="fadeInDown" class="title">Services</h2>
+            </header>
+            <div class="row services text-center">
+              <div data-animate="fadeInUp" class="col-lg-4">
+                <div class="icon"><i class="fa fa-search"></i></div>
+                <h3 class="heading mb-3 text-400">Consulting</h3>
+                <p class="text-left description">
+                  Web consultants are also known as web developers or web designers, you can consult about your website, such as how to design a web and what web features are suitable for your business. Furthermore, does your business need a website
+                </p>
+              </div>
+              <div data-animate="fadeInUp" class="col-lg-4">
+                <div class="icon"><i class="fa fa-desktop"></i></div>
+                <h3 class="heading mb-3 text-400">PHP Web Development</h3>
+                <p class="text-left description">
+                  PHP Web development is a website developer using the PHP programming language. and also uses the Bootstrap framework, Laravel. You can custom your website according to your wishes and your business needs
+                </p>
+              </div>
+              <div data-animate="fadeInUp" class="col-lg-4">
+                <div class="icon"><i class="fa fa-wordpress"></i></div>
+                <h3 class="heading mb-3 text-400">WordPress Development</h3>
+                <p class="text-left description">
+                  WordPress is a CMS for creating a website, and there are many themes and plugins from free to paid with many price variants, faster website creation time.
+                </p>
+              </div>
+            </div>
+            <hr data-animate="fadeInUp">
+            <div data-animate="fadeInUp" class="text-center">
+              <p class="lead">Would you want to know more, or are interested in creating a website?</p>
+              <p><a href="#contact" class="btn btn-outline-light link-scroll">Contact me</a></p>
+            </div>
+          </div>
+        </section>
+        <!-- Testimonials-->
+        <section id="testimonials" class="testimonials-section bg-gray">
+          <div class="container">
+            <header class="text-center mb-2">
+              <h2 data-animate="fadeInUp" class="title">Education</h2>
+              <p data-animate="fadeInUp" class="lead">Some of the education I've been through</p>
+            </header>
+            <ul data-animate="fadeInUp" class="owl-carousel owl-theme testimonials equalize-height">
+              <li class="item">
+                <div class="testimonial full-height">
+                  <div class="text">
+                    <h5 align="center">
+                      SMA N 1 <br> Sukawati
+                    </h5>
+                    <hr style="margin-bottom: 30px">
+                    <h6>
+                      At this high school I chose <br><br> science majors, and preferred <br><br> math lessons to practice logic <br><br> and complex thinking
+                    </h6>
+                  </div>
+                  <div class="bottom">
+                    <div class="icon"><i class="fa fa-quote-left"></i></div>
+                    <div class="name-picture">
+
+                      <h5>Periode</h5>
+                      <h6>July 2016 - July 2019</h6>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="item">
+                <div class="testimonial full-height">
+                  <div class="text">
+                    <h5 align="center">
+                      Slukat <br> Coding
+                    </h5>
+                    <hr style="margin-bottom: 30px">
+                    <h6>
+                     This is free education <br><br> provided by the Slukat <br><br> Learning Center Foundation. <br><br> In this class I learned coding <br><br> for the first time and learned <br><br> to create a basic website with <br><br> HTML, CSS, Bootstrap
+                   </h6>
+                 </div>
+                 <div class="bottom">
+                  <div class="icon"><i class="fa fa-quote-left"></i></div>
+                  <div class="name-picture">
+
+                    <h5>Periode</h5>
+                    <h6>Desc 2018 - May 2018</h6>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="item">
+              <div class="testimonial full-height">
+                <div class="text">
+                  <h5 align="center">
+                    Pro Privat <br> Media Education 
+                  </h5>
+                  <hr style="margin-bottom: 30px">
+                  <h6>
+                    This is a private class to <br><br> learn coding, here I learn <br><br> how to create a website for <br><br>  programming languages ​​PHP, <br><br> SQL, Laravel Framework and <br><br> WordPress CMS.
+                  </h6>
+                </div>
+                <div class="bottom">
+                  <div class="icon"><i class="fa fa-quote-left"></i></div>
+                  <div class="name-picture">
+
+                    <h5>Periode</h5>
+                    <h6>June 2020 - Oct 2020</h6>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="item">
+              <div class="testimonial full-height">
+                <div class="text">
+                  <h5 align="center">
+                    Stiki <br> Indonesia
+                  </h5>
+                  <hr style="margin-bottom: 30px">
+                  <h6>
+                    Now I am studying higher <br><br> education at Stiki Indonesia. <br><br> I chose Imformatics <br><br> Technique Management <br><br> study program.<br><br> Now is my 4th semester <br><br> at Stiki Indonesia
+                  </h6>
+                </div>
+                <div class="bottom">
+                  <div class="icon"><i class="fa fa-quote-left"></i></div>
+                  <div class="name-picture">
+
+                    <h5>Periode</h5>
+                    <h6>Sep 2019</h6>
+                  </div>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+
+      <section id="references">
+        <div class="container">
+          <div class="col-sm-12">
+            <div class="mb-5 text-center">
+              <h2 data-animate="fadeInUp" class="title">My work</h2>
+              <p data-animate="fadeInUp" class="lead">I have worked on several projects, so I select only the newest for you.</p>
+            </div>
+
+            <div id="detail">
+              <div class="row">
+                <div class="col-lg-10 mx-auto"><span class="close">×</span>
+                  <div id="detail-slider" class="owl-carousel owl-theme"></div>
+                  <div class="text-center">
+                    <h1 id="detail-title" class="title"></h1>
+                  </div>
+                  <div id="detail-content"></div>
+                </div>
+              </div>
+            </div>
+            <!-- Reference detail-->
+            <div id="references-masonry" data-animate="fadeInUp">
+              <div class="row">
+                <div data-category="webdesign" class="reference-item col-lg-4 col-md-6">
+                  <div class="reference"><a href="#"><img src="img/w1.jpeg" alt="" class="img-fluid">
+                    <div class="overlay">
+                      <div class="inner">
+                        <h3 class="h4 reference-title">WordPress</h3>
+                        <p>E-Commerce GadgetKu.com Apple Store From Wordpress</p>
+                      </div>
+                    </div></a>
+                    <div data-images="img/w1.jpeg,img/w2.jpeg,img/w3.jpeg" class="sr-only reference-description">
+                      <p style="font-size: 20px">
+                        This is an E-Commerce website that uses wordpress CMS. The features available on the e-commerce website gadgetku.com are buying and selling Apple branded cellphones or computers, I copied this from the Apple official website because I am very interested in Apple products.
+                        <br><br>But I did not buy the website hosting because this is only a project that I did for college assignments, and there are many more examples of websites with wordpress CMS that I have worked on such as blogs, company profiles.
+                      </p>
+                      <p class="buttons text-center"><a href="javascript:void(0);" class="btn btn-outline-primary"><i class="fa fa-globe"></i> Visit website</a></p>
+                    </div>
+                  </div>
+                </div>
+                <div data-category="seo" class="reference-item col-lg-4 col-md-6">
+                  <div class="reference"><a href="#"><img src="img/c1.jpeg" alt="" class="img-fluid">
+                    <div class="overlay">
+                      <div class="inner">
+                        <h3 class="h4 reference-title">Serangan Village</h3>
+                        <p>Tour Guide Website For KKN Warmadewa</p>
+                      </div>
+                    </div></a>
+                    <div data-images="img/c1.jpeg,img/c5.jpeg,img/c8.jpeg" class="sr-only reference-description">
+                      <p style="font-size: 20px">
+                        This is a website tour guide for KKN one of Warmadewa University students. This website contains about parawisita in one of the villages in Bali, namely the village of attack. <br><br> But this website is not finished yet because students are waiting for approval from the lecturer for further development of this website. Only then can I fill in the back-end and it becomes an attack village website, so this is just a front end website
+                      </p>
+                      <p class="buttons text-center"><a href="https://mywebsite-pages.github.io/seranganvillage.github.io/" class="btn btn-outline-primary"><i class="fa fa-globe"></i> Visit website</a></p>
+                    </div>
+                  </div>
+                </div>
+                <div data-category="marketing" class="reference-item col-lg-4 col-md-6">
+                  <div class="reference"><a href="#"><img src="img/c2.jpeg" alt="" class="img-fluid">
+                    <div class="overlay">
+                      <div class="inner">
+                        <h3 class="h4 reference-title">Bramastya</h3>
+                        <p>Website Portfolio For Bramastya</p>
+                      </div>
+                    </div></a>
+                    <div data-images="img/c2.jpeg,img/c4.jpeg,img/c7.jpeg" class="sr-only reference-description">
+                      <p>
+                        This is a portfolio website for Bramastya, my cousin, I made him a portfolio website with a template.
+                        <br><br> On this website contains information about Bramastya, with the creation of this website I am also training myself in learning the Java Script programming language
+                        <br><br>For a further view of the website, please click the visit website button below
+                      </p>
+                      <p class="buttons text-center"><a href="https://mywebsite-pages.github.io/bramastyaPorto/" class="btn btn-outline-primary"><i class="fa fa-globe"></i> Visit website</a></p>
+                    </div>
+                  </div>
+                </div>
+                <div data-category="marketing" class="reference-item col-lg-4 col-md-6">
+                  <div class="reference"><a href="#"><img src="img/c3.jpeg" alt="" class="img-fluid">
+                    <div class="overlay">
+                      <div class="inner">
+                        <h3 class="h4 reference-title">Joni Artawan</h3>
+                        <p>Website Portfolio For Joni Artawan </p>
+                      </div>
+                    </div></a>
+                    <div data-images="img/c3.jpeg,img/c6.jpeg" class="sr-only reference-description">
+                      <p>
+                        This is a portfolio website for Joni Artawan, my friend, I made him a portfolio website with a template. 
+                        <br><br> This website contains information about Joni Artawan, with the creation of this website I am also training myself in learning the Java Script programming language
+                        .<br><br> For a further view of the website, please click the visit website button below
+                      </p>
+                      <p class="buttons text-center"><a href="https://mywebsite-pages.github.io/joniartawan.github.io/" class="btn btn-outline-primary"><i class="fa fa-globe"></i> Visit website</a></p>
+                    </div>
+                  </div>
+                </div>
+                <div data-category="webdesign" class="reference-item col-lg-4 col-md-6">
+                  <div class="reference"><a href="#"><img src="img/L1.jpeg" alt="" class="img-fluid">
+                    <div class="overlay">
+                      <div class="inner">
+                        <h3 class="h4 reference-title">Laravel</h3>
+                        <p>Website Using Laravel Framework for college assignments</p>
+                      </div>
+                    </div></a>
+                    <div data-images="img/L1.jpeg,img/L2.jpeg,img/L3.jpeg" class="sr-only reference-description">
+                      <p>
+                       This is an example of a website project that I have made using laravel, which is a school announcement and activity website, similar to a school blog or a school information website. which has the Create Read Update Delete feature.
+                       <br><br> 
+                       But this is also just a college assignment project, there are still many projects like this that I made with laravel
+                       
+                     </p>
+                     <p class="buttons text-center"><a href="javascript:void(0);" class="btn btn-outline-primary"><i class="fa fa-globe"></i> Visit website</a></p>
+                   </div>
+                 </div>
+               </div>
+             </div>
+           </div>
+         </div>
+       </div>
+     </section>
+
+     <!-- Contact-->
+     <section id="contact" data-animate="bounceIn" class="contact-section contact">
+      <div class="container">
+        <header class="text-center">
+          <h2 class="title">Contact me</h2>
+          <h3 style="color: #c23616 ">Let's Get In Touch!</h3>
+          <hr style="margin-bottom: 30px">
+          <h5 style="color: #535c68 ">
+            Ready to start your next project with us? Give us a call or send us an email and we will get back to you as soon as possible!
+          </h5>
+        </header>
+        <div class="row services text-center" style="margin-top: 100px">
+          <div data-animate="fadeInUp" class="col-lg-4">
+            <div class="icon" style="font-size: 60px"><i class="fa fa-phone"></i></div>
+            <h4 class="heading mb-3 text-400"><a href="tel:+6285333286330"> +62 85-333-286-330</a></h4>
+
+          </div>
+          <div data-animate="fadeInUp" class="col-lg-4">
+            <div class="icon"style="font-size: 60px"><i class="fa fa-whatsapp"></i></div>
+            <h4 class="heading mb-3 text-400"><a href="https://api.whatsapp.com/send?phone=6285333286330&text=Hallo!%20Saya%20'nama'%20'ketik pesan'!"> +62 85-333-286-330</a></h4>
+
+          </div>
+          <div data-animate="fadeInUp" class="col-lg-4">
+            <div class="icon"style="font-size: 60px"><i class="fa fa-envelope"></i></div>
+            <h4 class="heading mb-3 text-400"><a href="mailto:gedewidyadnyana@icloud.com">Gedewidyadnyana@icloud.com</a></h4>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <footer class="main-footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 text-center text-lg-left">
+          <p class="social">
+            <a href="https://www.facebook.com/widyadnyana.widyadnyana/" class="external facebook wow fadeInUp">
+              <i class="fa fa-facebook"></i>
+            </a>
+            <a href="https://www.instagram.com/widyadnyana34/?hl=id" data-wow-delay="0.2s" class="external instagram wow fadeInUp">
+              <i class="fa fa-instagram"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/i-putu-gede-widyadnyana-3a741a211/" data-wow-delay="0.4s" class="external linkedin wow fadeInUp">
+              <i class="fa fa-linkedin"></i>
+            </a>
+            <a href="mailto:gedewidyadnyana@icloud.com" data-wow-delay="0.6s" class="email wow fadeInUp">
+              <i class="fa fa-envelope"></i>
+            </a>
+          </p>
+        </div>
+
+        <div class="col-md-4 text-center mt-4 mt-lg-0">
+          <a href="https://goo.gl/maps/5rK98VhNmVVe8frg8" style="color: white">
+           Jl. Bapak Guru. Batuan 
+           <br />
+           Sukawati - Gianyar
+         </a>
+       </div>
+       <!-- /.6-->
+       <div class="col-md-4 text-center text-lg-right mt-4 mt-lg-0">
+        <p>© 2021 Putu Gede Widyadnyana. All rights reserved.</p>
+      </div>
+    </div>
+  </div>
+</footer>
+<!-- JavaScript files-->
+<script src="vendor/jquery/jquery.min.js"></script>
+<script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="vendor/jquery.cookie/jquery.cookie.js"> </script>
+<script src="vendor/owl.carousel/owl.carousel.min.js"></script>
+<script src="vendor/waypoints/lib/jquery.waypoints.min.js"></script>
+<script src="vendor/jquery.counterup/jquery.counterup.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.4.0/leaflet.js"> </script>
+<script src="js/front.js"></script>
+</body>
+</html>
